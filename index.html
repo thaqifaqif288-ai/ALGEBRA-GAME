@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Math Jenga Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🧮 Math Jenga Game</h1>
+
+  <p class="instruction">
+    Masukkan jawapan bagi setiap soalan dalam ruangan yang disediakan. Setiap jawapan betul akan menambah blok Jenga ke menara.
+  </p>
+
+  <button onclick="startGame()">▶ Mula Game</button>
+
+  <div id="gameArea" class="hidden">
+    <div id="questionContainer">
+      <div class="question-row">
+        <input type="number" class="answerInput" placeholder="Jawapan 1">
+        <input type="number" class="answerInput" placeholder="Jawapan 2">
+        <input type="number" class="answerInput" placeholder="Jawapan 3">
+        <input type="number" class="answerInput" placeholder="Jawapan 4">
+        <input type="number" class="answerInput" placeholder="Jawapan 5">
+      </div>
+      <button onclick="submitAnswers()">Done</button>
+    </div>
+
+    <div id="jengaTower"></div>
+    <p id="scoreBoard"></p>
+    <p id="result"></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
