@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1e3c72, #2a5298);
+  color: #fff;
+  text-align: center;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background: rgba(0,0,0,0.7);
+  padding: 30px;
+  border-radius: 12px;
+  width: 500px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.hidden { display: none; }
+
+#jengaTower {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block {
+  width: 60px;
+  height: 20px;
+  background: #4CAF50;
+  margin: 2px;
+  border-radius: 4px;
+}
+
+.question-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.answerInput {
+  width: 60px;
+  padding: 5px;
+}
